@@ -23,7 +23,7 @@ const fareDoubler = (fare) => fare* 2;
 const fareTripler = (fare)  => fare*3; 
 
 
-function selectDifferentDrivers(driversArr, func) {
+const selectDifferentDrivers = (driversArr, func) => {
     if (func === returnFirstTwoDrivers){
         return returnFirstTwoDrivers(driversArr);
     }else if(func === returnLastTwoDrivers) {
